@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: rgb(239, 239, 245);
+  display: flex;
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  font-weight: 700;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1% 10%;
+}
+
+.displayBook {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  margin: auto;
+  padding: 2% 10%;
+  background-color: rgb(239, 239, 245);
+}
+
+.displayBook .bookList {
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 235, 235);
+  border: 2px solid #141313;
+}
+
+.book-info-conatiner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 10px;
+}
+
+.book-info-conatiner:nth-child(odd) {
+  background-color: rgb(201, 202, 241);
+}
+
+button {
+  width: fit-content;
+  padding: 10px 16px;
+  background-color: rgb(153, 155, 255);
+  color: rgb(15, 15, 15);
+  border: 2px solid rgb(29, 26, 26);
+}
+
+#addButton {
+  margin-left: 440px;
+}
+
+.bookDisplay {
+  flex-direction: column;
+}
+
+.book-info-conatiner > button {
+  width: fit-content;
+  padding: 5px 5px;
+  box-shadow: 5px 5px #070000;
+}
+
+.textContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button:hover {
+  background-color: rgb(80, 81, 126);
+  border: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2% 10%;
+  gap: 5px;
+}
+
+form > h2 {
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid #141313;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(15, 15, 15);
+}
+
+.input {
+  width: 500px;
+  height: 40px;
+  background-color: rgb(191, 192, 243);
+  color: rgb(8, 8, 8);
+  border: 2px solid rgb(20, 17, 17);
+  padding: 10px 16px;
+  font-size: 16px;
+  margin: auto;
+}
+
+::placeholder {
+  color: rgb(10, 9, 9);
+}
+
+.bookAdding {
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  width: 99%;
+  justify-content: space-between;
+  padding: 14px;
+  align-items: center;
+  margin: 5px;
+  border: 2px solid #141313;
+  background-color: rgb(224, 227, 230);
+}
+
+.nav-bar > div {
+  width: fit-content;
+  padding: 10px 10px;
+}
+
+.nav-bar .nav-pages {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.nav-bar > div > a {
+  text-decoration: none;
+  color: black;
+  border-right: 2px solid #141313;
+  padding: 10px;
+}
+
+.nav-bar > div > a:hover {
+  background-color: rgb(176, 233, 214);
+  border-bottom: 2px solid #141313;
+}
+
+.nav-bar > div > p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-bar > div > p:hover {
+  font-size: 30px;
+  color: rgb(231, 157, 46);
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  width: 99%;
+  justify-content: space-between;
+  padding: 14px;
+  align-items: flex-start;
+  margin: 5px;
+  border: 2px solid #141313;
+  background-color: rgb(224, 227, 230);
+}
+
+.contact {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact > h2 {
+  font-size: 27px;
+  font-weight: 800;
+  padding-bottom: 60px;
+}
+
+.contact > div {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.contact > ul {
+  line-height: 0.7cm;
+}
+
+.date {
+  display: flex;
+  width: 98%;
+  justify-content: flex-end;
+}
+
+section {
+  min-height: 70vh;
+}
+
+iframe {
+  border: 0;
+  width: 217px;
+  height: 20px;
+}
