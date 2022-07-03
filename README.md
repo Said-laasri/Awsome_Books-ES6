@@ -52,7 +52,7 @@ _use vs-code or any IDE  to view line code .
 _use you preferd browser to run the file .html to get project website.
 
 ### LIVE DEMO
-CHECK THIS LINK [Awsome Books](https://said-laasri.github.io/Awsome-Book/)
+CHECK THIS LINK [Awsome Books](https://said-laasri.github.io/Awsome_Books-ES6/)
 
 ## Authors
 
