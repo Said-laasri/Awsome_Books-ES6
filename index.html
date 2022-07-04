@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awsome-Books</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div>
+            <p>Awsome Books</p>
+        </div>
+        <div class="nav-pages">
+            <a class="firstPage" href="#">List</a>
+            <a class="secondePage" href="#">Add new</a>
+            <a class="tirthPage" href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="date"></div>
+    <section class="bookDisplay">
+        <div class="header">
+            <h1>All awsome books</h1>
+        </div>
+        <div class="displayBook">
+        <div class="bookList"></div>    
+        </div>
+    </section>
+
+    <section class="bookAdding">
+        <form>
+            <h2>Add a new book</h2>
+            <div>
+                <input class="input" id="title" name="title" type="text" placeholder="Title">
+            </div> <br> 
+            <div>
+                <input class="input" id="author" name="author" type="text" placeholder="Author">
+            </div> <br>
+                <button id="addButton" class="submit" type="submit">Add</button>
+         </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact information</h2>
+        <div>
+        <p>Do you hve any question or you just wana say *Hello*?</p>
+        <p>You can reach out to us!</p>
+        </div>
+        <ul>
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our phone number: 065145369515 </li>
+            <li>Our adress: StreetHollyoud 22.03 City.USA</li>
+        </ul>
+    </section>
+    
+    <footer class="copyright">
+        <p>copyright</p>
+    </footer>
+    <script type="module" src="./modules/library.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
